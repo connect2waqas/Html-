@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>for month type</title>
+</head>
+<body>
+    <h2>Month field</h2>
+    <form action="/action_page.php">
+    <label for="bdaymonth">Birthday:</label>
+    <input type="month" id="bdaymonth" name="month" ><br>
+      <p><strong>Note </strong><b> input type="month"</b> is not supportted in some browser sorry</p>
+     <br>
+     <input type="submit">
+<hr style=>
+    </form>
+    <br>
+    <h2>Field for number</h2>
+    <p>the <strong> input type = number </strong>defines a numeric part in field</p>
+    <form action="/action_page.php">
+        <label for="quantity">Quantity</label>
+        <input type="quantity" id="quantity" name="quantity" max="5" min="1">
+        <input type="submit" value="submit">
+        </form><br>
+
+        <h2>input for the telephone</h2>
+        <form action="/action_page.php">
+        <label for="phone">enter your phone number</label><br><br>
+         <input type="tel" id="phone" name="phone"  placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br>
+         <small>Format: 123-45-678</small><br><br>
+         <input type="submit" id="submit">
+
+    </form>
+</body>
+</html>
